@@ -134,4 +134,184 @@ Ethical hacking is a critical skill in cybersecurity. This path helps you build 
 
 ---
 
-*Created by 
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Learning Path to Understand & Build Your Own Hacking Tools
+
+This roadmap guides you through the skills and knowledge needed to **understand how hacking tools work internally and create your own tools from scratch**. It covers programming, networking, OS internals, security concepts, reverse engineering, and tool development.
+
+---
+
+## Overview
+
+| Step | Focus Area                       | What You Learn & Skills Gained                                    | Where to Learn (with What You Get)                  |
+|-------|--------------------------------|------------------------------------------------------------------|-----------------------------------------------------|
+| 1     | Programming Foundations         | Python & C basics, socket programming, multithreading, scripting | - [CS50 by Harvard](https://cs50.harvard.edu/x/2023/) (Full CS intro, programming fundamentals) <br> - [Learn Python the Hard Way](https://learnpythonthehardway.org/) (Python basics & exercises) <br> - [Beej’s Guide to Network Programming](https://beej.us/guide/bgnet/) (Sockets & networking) |
+| 2     | Networking Deep Dive            | TCP/IP protocols, HTTP/HTTPS, DNS, packet structure, sniffing   | - [Computer Networking: A Top-Down Approach (Online Lectures)](https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm) (Networking theory) <br> - Wireshark official tutorials ([Link](https://www.wireshark.org/docs/)) (Packet analysis) |
+| 3     | Operating System Internals      | Linux & Windows OS internals, system calls, memory management    | - [Linux From Scratch](http://www.linuxfromscratch.org/) (Linux internals) <br> - [Windows Internals by Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/) (Windows architecture) |
+| 4     | Security Concepts & Vulnerabilities | Buffer overflow, memory corruption, web vulnerabilities, crypto basics | - *Hacking: The Art of Exploitation* by Jon Erickson (Book - Exploitation & security) <br> - [OpenSecurityTraining.info](https://opensecuritytraining.info/) (Free security courses) |
+| 5     | Reverse Engineering & Analysis | Static & dynamic analysis, binary reversing, malware analysis    | - *Practical Reverse Engineering* by Bruce Dang et al. (Book) <br> - [Ghidra Tutorials](https://ghidra-sre.org/) (Reverse engineering tool) |
+| 6     | Tool Development: Networking   | Build network scanners, port scanners, custom packet tools       | - [Python Socket Programming Tutorials](https://realpython.com/python-sockets/) (Sockets & network programming) <br> - [Scapy Documentation](https://scapy.readthedocs.io/en/latest/) (Packet crafting) |
+| 7     | Tool Development: Web & Proxies | Build web automation tools, proxies, browser exploit modules    | - [BeEF Project Wiki](https://github.com/beefproject/beef/wiki) (Browser Exploitation Framework) <br> - [Python Requests Library](https://realpython.com/python-requests/) (HTTP automation) <br> - [Selenium with Python](https://selenium-python.readthedocs.io/) (Browser automation) |
+| 8     | Tool Development: Wireless     | Create WiFi sniffers, deauth tools, packet analyzers             | - [Aircrack-ng Documentation](https://www.aircrack-ng.org/documentation.html) (Wireless hacking tools) <br> - [Scapy Wireless Tutorials](https://scapy.readthedocs.io/en/latest/introduction.html#wifi-support) (Wireless packet manipulation) |
+| 9     | Tool Development: Phishing & Social Engineering | Email sending tools, phishing proxy frameworks                    | - [Evilginx2 GitHub](https://github.com/kgretzky/evilginx2) (Phishing proxy source) <br> - [Python SMTP Tutorial](https://realpython.com/python-send-email/) (Email automation) |
+| 10    | Exploitation & Automation      | Write exploit scripts, Metasploit scripting, shellcode basics    | - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) (Free Metasploit training) <br> - [Shellcoding Tutorials](https://shell-storm.org/shellcode/) (Assembly shellcode basics) |
+
+---
+
+## Detailed Learning Breakdown with Where to Learn
+
+### 1. Programming Foundations
+- **What to learn:**  
+  - Python syntax and basics  
+  - C programming essentials  
+  - Networking with sockets  
+  - Multithreading and scripting basics  
+- **Where to learn:**  
+  - [CS50 by Harvard](https://cs50.harvard.edu/x/2023/) — Complete computer science and programming intro  
+  - [Learn Python the Hard Way](https://learnpythonthehardway.org/) — Hands-on Python exercises  
+  - [Beej’s Guide to Network Programming](https://beej.us/guide/bgnet/) — C socket programming tutorials  
+
+---
+
+### 2. Deep Networking Knowledge
+- **What to learn:**  
+  - TCP/IP, UDP, HTTP protocols  
+  - DNS, SSL/TLS basics  
+  - Packet capture and analysis  
+- **Where to learn:**  
+  - [Computer Networking: A Top-Down Approach (Lectures)](https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm) — Excellent networking course  
+  - [Wireshark Tutorials](https://www.wireshark.org/docs/) — Packet capture and analysis  
+
+---
+
+### 3. Operating System Internals
+- **What to learn:**  
+  - Linux system calls, processes, memory  
+  - Windows internals and APIs  
+- **Where to learn:**  
+  - [Linux From Scratch](http://www.linuxfromscratch.org/) — Linux OS internals and building  
+  - [Windows Internals (Sysinternals)](https://docs.microsoft.com/en-us/sysinternals/) — Windows OS deep dive  
+
+---
+
+### 4. Security Concepts & Vulnerabilities
+- **What to learn:**  
+  - Exploitation techniques (buffer overflow, etc.)  
+  - Web security vulnerabilities (XSS, SQLi)  
+  - Cryptography basics  
+- **Where to learn:**  
+  - *Hacking: The Art of Exploitation* by Jon Erickson — Classic book on exploitation  
+  - [OpenSecurityTraining.info](https://opensecuritytraining.info/) — Free security courses  
+
+---
+
+### 5. Reverse Engineering & Malware Analysis
+- **What to learn:**  
+  - Disassembly and debugging  
+  - Static and dynamic binary analysis  
+- **Where to learn:**  
+  - *Practical Reverse Engineering* (Book)  
+  - [Ghidra Tutorials](https://ghidra-sre.org/) — NSA’s reverse engineering tool  
+
+---
+
+### 6. Tool Development: Networking
+- **What to learn:**  
+  - Writing network scanners and packet crafting tools  
+- **Where to learn:**  
+  - [Real Python Sockets Tutorial](https://realpython.com/python-sockets/)  
+  - [Scapy Documentation](https://scapy.readthedocs.io/en/latest/)  
+
+---
+
+### 7. Tool Development: Web & Proxies
+- **What to learn:**  
+  - HTTP automation  
+  - Writing proxy servers  
+  - Browser hooking with JavaScript (BeEF)  
+- **Where to learn:**  
+  - [BeEF Wiki](https://github.com/beefproject/beef/wiki)  
+  - [Python Requests Library](https://realpython.com/python-requests/)  
+  - [Selenium with Python](https://selenium-python.readthedocs.io/)  
+
+---
+
+### 8. Tool Development: Wireless
+- **What to learn:**  
+  - WiFi packet capture and injection  
+  - Writing wireless attack tools  
+- **Where to learn:**  
+  - [Aircrack-ng Documentation](https://www.aircrack-ng.org/documentation.html)  
+  - [Scapy Wireless Support](https://scapy.readthedocs.io/en/latest/introduction.html#wifi-support)  
+
+---
+
+### 9. Tool Development: Phishing & Social Engineering
+- **What to learn:**  
+  - SMTP email sending automation  
+  - Phishing proxy mechanics  
+- **Where to learn:**  
+  - [Evilginx2 GitHub](https://github.com/kgretzky/evilginx2)  
+  - [Python SMTP Email Tutorial](https://realpython.com/python-send-email/)  
+
+---
+
+### 10. Exploitation & Automation
+- **What to learn:**  
+  - Writing Metasploit scripts and modules  
+  - Shellcode creation basics  
+- **Where to learn:**  
+  - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)  
+  - [Shell-Storm Shellcode Database & Tutorials](https://shell-storm.org/shellcode/)  
+
+---
+
+## Final Notes
+
+- **Prerequisites:** Basic programming knowledge and understanding of ethical hacking concepts.  
+- **Practice:** Always use labs and legal environments to test your code and tools.  
+- **Progress:** Start simple, then build complex multi-functional tools as you learn.
+
+---
+
+*If this roadmap helps you, please ⭐ star the repo and share with friends!*
+
+*Created by [Your Name]*  
+*Contact: your.email@example.com*  
